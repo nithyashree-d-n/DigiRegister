@@ -12,35 +12,34 @@
         <p>Simple digital sales register</p>
       
         <table border="1" cellpadding="10">
-          <tr>
-            <th>Item</th>
-            <th>+1</th>
-            <th>+2</th>
-            <th>+3</th>
-            <th>Cash</th>
-            <th>UPI</th>
-          </tr>
-      
-          <tr>
-            <td>Pen</td>
-            <td><button id="pen-1">+1</button></td>
-            <td><button id="pen-2">+2</button></td>
-            <td><button id="pen-3">+3</button></td>
-            <td><button id="pen-cash">Cash</button></td>
-            <td><button id="pen-upi">UPI</button></td>
-          </tr>
+            <tr>
+              <th>Item</th>
+              <th>+1</th>
+              <th>+2</th>
+              <th>+3</th>
+              <th>Cash</th>
+              <th>UPI</th>
+            </tr>
           
-      
-          <tr>
-            <td>Notebook</td>
-            <td><button>+1</button></td>
-            <td><button>+2</button></td>
-            <td><button>+3</button></td>
-            <td><button>Cash</button></td>
-            <td><button>UPI</button></td>
-          </tr>
-      
-        </table>
+            <tr data-item="Pen">
+                <td>Pen <span class="price">(₹10)</span></td>
+              <td><button class="qty-btn" data-qty="1">+1</button></td>
+              <td><button class="qty-btn" data-qty="2">+2</button></td>
+              <td><button class="qty-btn" data-qty="3">+3</button></td>
+              <td><button class="pay-btn" data-pay="cash">Cash</button></td>
+              <td><button class="pay-btn" data-pay="upi">UPI</button></td>
+            </tr>
+          
+            <tr data-item="Notebook">
+                <td>Notebook <span class="price">(₹40)</span></td>
+              <td><button class="qty-btn" data-qty="1">+1</button></td>
+              <td><button class="qty-btn" data-qty="2">+2</button></td>
+              <td><button class="qty-btn" data-qty="3">+3</button></td>
+              <td><button class="pay-btn" data-pay="cash">Cash</button></td>
+              <td><button class="pay-btn" data-pay="upi">UPI</button></td>
+            </tr>
+          </table>
+          
         <p>
             Selected Quantity:
             <strong><span id="selectedQty">None</span></strong>
@@ -51,6 +50,11 @@
             <p>Cash Total: ₹ <span id="cashTotal">0</span></p>
             <p>UPI Total: ₹ <span id="upiTotal">0</span></p>
           </div>
+          <div id="salesLog">
+            <h3>Today's Sales</h3>
+            <ul id="salesList"></ul>
+          </div>
+          
           
       
         <script src="script.js"></script>
