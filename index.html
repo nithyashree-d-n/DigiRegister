@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DigiRegister</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <body>
+
+        <h1>DigiRegister</h1>
+        <p>Simple digital sales register</p>
+      
+        <table border="1" cellpadding="10">
+          <tr>
+            <th>Item</th>
+            <th>+1</th>
+            <th>+2</th>
+            <th>+3</th>
+            <th>Cash</th>
+            <th>UPI</th>
+          </tr>
+      
+          <tr>
+            <td>Pen</td>
+            <td><button id="pen-1">+1</button></td>
+            <td><button id="pen-2">+2</button></td>
+            <td><button id="pen-3">+3</button></td>
+            <td><button id="pen-cash">Cash</button></td>
+            <td><button id="pen-upi">UPI</button></td>
+          </tr>
+          
+      
+          <tr>
+            <td>Notebook</td>
+            <td><button>+1</button></td>
+            <td><button>+2</button></td>
+            <td><button>+3</button></td>
+            <td><button>Cash</button></td>
+            <td><button>UPI</button></td>
+          </tr>
+      
+        </table>
+        <p>
+            Selected Quantity:
+            <strong><span id="selectedQty">None</span></strong>
+          </p>
+          
+        <div id="summary">
+            <h3>Today's Summary</h3>
+            <p>Cash Total: ₹ <span id="cashTotal">0</span></p>
+            <p>UPI Total: ₹ <span id="upiTotal">0</span></p>
+          </div>
+          
+      
+        <script src="script.js"></script>
+      </body>
+      
+
+  <script src="script.js"></script>
+</body>
+</html>

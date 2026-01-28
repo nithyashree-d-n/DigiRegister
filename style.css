@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #2c3e50;
+  }
+  table {
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+  #summary {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    width: 300px;
+    background-color: #f9f9f9;
+  }
+  #selectedQty {
+    color: #2c3e50;
+  }
+        
