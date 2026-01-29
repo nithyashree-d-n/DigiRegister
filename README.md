@@ -1,4 +1,4 @@
-# 📘 DigiRegister
+# DigiRegister
 
 ### An Offline-First Digital Register for College Bookstores
 
@@ -6,7 +6,7 @@ DigiRegister is a user-centric, offline-first web application designed to digiti
 
 ---
 
-## 💡 How I Got This Idea
+## How I Got This Idea
 
 This project began with a simple observation at my college bookstore.
 
@@ -23,7 +23,7 @@ This led to the creation of **DigiRegister**, a digital solution that respects e
 
 ---
 
-## 📄 Problem Statement
+## Problem Statement
 
 * Sales are recorded manually using tally marks (+1, +2, +3)
 * Cash and UPI payments are tracked separately by hand
@@ -38,7 +38,7 @@ This led to the creation of **DigiRegister**, a digital solution that respects e
 
 ---
 
-## 🚀 Core Idea
+## Core Idea
 
 To build a **web-based, offline-first digital register** that:
 
@@ -48,7 +48,7 @@ To build a **web-based, offline-first digital register** that:
 
 ---
 
-## 🔄 Overall Flow
+## Overall Flow
 
 1. User opens the web application (desktop, laptop, or mobile)
 2. Logs in using Gmail-based authentication
@@ -68,7 +68,7 @@ To build a **web-based, offline-first digital register** that:
 
 ---
 
-## 🎨 User Experience Philosophy
+## User Experience Philosophy
 
 Designed for non-technical users:
 
@@ -92,15 +92,15 @@ Displays:
 
 For each item:
 
-* ➕ +1, +2, +3 quantity buttons
-* 💰 Cash payment button
-* 📱 UPI payment button
+*  +1, +2, +3 quantity buttons
+*  Cash payment button
+*  UPI payment button
 
-➡️ One click = one action (faster than writing in a register)
+ One click = one action (faster than writing in a register)
 
 ---
 
-## 📦 Offline-First Data Handling
+## Offline-First Data Handling
 
 Offline support is a **core feature**:
 
@@ -116,11 +116,11 @@ When online:
 * Automatic background sync to backend
 * No manual sync required
 
-📌 Local database acts as the **source of truth**
+Local database acts as the **source of truth**
 
 ---
 
-## 👥 Multi-User & Authentication
+## Multi-User & Authentication
 
 * Gmail-based authentication (Google OAuth)
 * No passwords to remember
@@ -145,7 +145,7 @@ When online:
 
 ---
 
-## ⚙️ Settings & Customization (Developer-Independent)
+## Settings & Customization (Developer-Independent)
 
 All managed through a Settings panel:
 
@@ -155,11 +155,11 @@ All managed through a Settings panel:
 * Choose report formats
 * Customize UI preferences
 
-🧩 All configurations are stored as data — not hard-coded
+All configurations are stored as data — not hard-coded
 
 ---
 
-## 📊 Reports & End-of-Day Accounting
+## Reports & End-of-Day Accounting
 
 User-controlled report generation:
 
@@ -179,7 +179,7 @@ User-controlled report generation:
 
 ---
 
-## 📱 Mobile Support
+## Mobile Support
 
 Fully responsive web app:
 
@@ -190,7 +190,7 @@ Mobile usage serves as backup/emergency option.
 
 ---
 
-## 🛠️ Technology Stack (Zero-Cost)
+## Technology Stack (Zero-Cost)
 
 | Component       | Technology                              |
 | --------------- | --------------------------------------- |
@@ -201,11 +201,11 @@ Mobile usage serves as backup/emergency option.
 | Backend         | Free serverless backend (optional)      |
 | Reports         | Browser-based export (PDF, Excel, Word) |
 
-💰 No subscriptions. No paid services.
+No subscriptions. No paid services.
 
 ---
 
-## ❤️ Why DigiRegister Is User-Centric
+## Why DigiRegister Is User-Centric
 
 * Preserves existing workflow
 * Faster than manual entry
@@ -216,7 +216,7 @@ Mobile usage serves as backup/emergency option.
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 DigiRegister is not just a software solution — it is a **behavior-respecting digital system**.
 
