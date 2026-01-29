@@ -82,7 +82,7 @@ Designed for non-technical users:
 
 ---
 
-## 🧾 Main Functional Screen (Sales Entry)
+## Main Functional Screen (Sales Entry)
 
 Displays:
 
